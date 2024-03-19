@@ -1,0 +1,80 @@
+body {
+  background-image: url("./pictures/11.png");
+  background-repeat: no-repeat;
+  background-position: 30% 0;
+  background-size: 80%; /* Reduce the background image size */
+  background-color: rgba(255, 255, 255, 0.7); /* Brighten the background image */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(0, 0, 0); /* Prominent black color for text */
+ 
+}
+.profile-container {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.profile-container::before {
+  content: '';
+  width: 55px; /* גודל התמונה */
+  height: 55px; /* גובה התמונה */
+  background-image: url('./pictures/2.JPG');
+  background-size: cover;
+  background-position: center;
+  border-radius: 50%; /* עיגול התמונה */
+  margin-right: 5px; /* מרווח מימין לתמונה */
+}
+
+.profile-text {
+  color: rgb(0, 0, 0); /* צבע הטקסט */
+  font-size: 20px;
+}
+header {
+  padding: 20px;
+}
+
+nav {
+  padding: 10px;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+nav ul li a {
+  background-color: rgb(59, 59, 59); 
+  color: rgb(247, 245, 245); /* Text color for links */
+  text-decoration: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+nav ul li a:hover {
+  background-color: rgb(255, 255, 255); 
+  background-color: rgb(0, 0, 0)
+}
+
+button {
+  background-color: #666; /* Dark gray background for buttons */
+  color: rgb(108, 107, 107); /* Text color for buttons */
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Shining frame */
+}
+
+button:hover {
+  background-color: #444; /* Background color on button hover */
+}
+

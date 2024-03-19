@@ -1,0 +1,25 @@
+.services-container {
+    background-color: #E6F1F9;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .services-title {
+    color: #4375A6;
+    margin-bottom: 10px;
+  }
+  
+  .services-description {
+    color: #4375A6;
+    margin-bottom: 20px;
+  }
+  
+  .services-list {
+    color: #4375A6;
+    margin-bottom: 10px;
+  }
+  
+  .services-link {
+    text-decoration: none;
+  }
+  
